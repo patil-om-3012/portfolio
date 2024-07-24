@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: static;
+    background-color: #f5f9f1;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+/*Heading */
+.lc {
+
+    color: #4f5862;
+    text-decoration: none;
+    font-size: 16px;
+
+    /* position: absolute;
+    left:20px;
+    top: 25px; */
+
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lc img{
+    height:25px;
+    width:25px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    /* background-color: #fef8f5; */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Profile */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* background-color: #c1bbb6; */
+}
+
+.profile-image {
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url('./images/profileImg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/*Description*/
+.description {
+    text-align: center;
+    padding: 20px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /* background-color:#eaeeec; */
+}
+
+/*Skills*/
+
+.skills {
+    /* background-color: #f9f9f9; */
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+}
+
+.skill-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.skill img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+.skill p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*Projects*/
+.cImg{
+    height: 300px;
+}
+
+.ptext{
+    text-align: center;
+    padding: 20px;
+}
+
+.projComp{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+    /* background-color: #eaeeec; */
+}
+
+/* .card{
+    width: 490px;
+} */
